@@ -70,8 +70,8 @@ async def main():
     # Load the model
     source_dir = Path('./Open-English-Bible-master/source/')
     odir = Path('output')
-    # io = (source_dir / Path('41-Mark.usfm.db'), odir/ Path('41OIBMRK.SFM'))
-    io = (source_dir / Path('62-1 John.usfm.db'), odir/ Path('62OIB1JN.SFM'))
+    io = (source_dir / Path('41-Mark.usfm.db'), odir/ Path('41OIBMRK.SFM'))
+    # io = (source_dir / Path('62-1 John.usfm.db'), odir/ Path('62OIB1JN.SFM'))
     if not io[0].is_file():
         print("Input file doesn't exist")
         exit()
